@@ -1,0 +1,97 @@
+/*reset*/
+a{text-decoration: underline  ; color:#000;}
+a:hover{text-decoration: underline;cursor:pointer;color:#000;}
+h1,h2,h3,ul,li{padding:0;margin:0;}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: block;
+}
+
+html[xmlns] .clearfix {
+	display: block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+/* overlay common styles*/
+body{
+	font-size:12px;
+	font-family: Arial, Tahoma, Georgia;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	min-width: 980px;
+	background: #fff;
+}
+
+html{
+	overflow-y: scroll;
+}
+
+body,html{
+	height: 100%;
+}
+
+
+.l-header{
+	height: 31px;
+	position: relative;
+}
+
+.l-wrapper{
+	padding:10px 0px 60px 0px;
+	overflow:hidden;
+	min-width:980px;
+	max-width:1280px;
+	display: block;
+}
+
+.l-container{
+	min-width:1240px;
+	max-width:1240px;
+	min-height: 100%;
+	height:auto !important;
+	height:100%;
+	margin:0 auto;
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.l-content{
+	float:right;
+	width:950px;
+	min-height:200px;
+	display: inline-block;
+
+}
+
+.l-content .l-left{float:left;width:130px;overflow: hidden;}
+.l-content .l-right{float:right;width:560px;overflow: hidden;}
+
+.l-sidebar{
+	min-width: 270px;
+	max-width: 270px;
+	width:auto !important;
+	width:100%;
+	display: inline-block;
+}
+
+.l-footer{
+	position: relative;
+	width:100%;
+	margin:-60px 0 0;
+	height:60px;
+	z-index:20;
+	text-align: right;
+	overflow: hidden;
+}

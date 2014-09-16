@@ -1,0 +1,22 @@
+.sitemap_edit_form
+{
+	width:100%;
+}
+
+.sitemap_edit_form div
+{
+	width:60%;
+	display: inline-block;
+}
+
+.sitemap_edit_form div span
+{
+	width: 40%;
+	display: inline-block;
+}
+
+.sitemap_edit_form div select,
+.sitemap_edit_form div input
+{
+	width:200px;
+}
